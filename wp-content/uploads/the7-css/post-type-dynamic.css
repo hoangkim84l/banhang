@@ -1,9 +1,9 @@
 .accent-bg-mixin {
   color: #fff;
-  background-color: #bca9a3;
+  background-color: #2d8221;
 }
 .accent-gradient .accent-bg-mixin {
-  background: #bca9a3;
+  background: #2d8221;
   background: -webkit-linear-gradient();
   background: linear-gradient();
 }
@@ -90,7 +90,7 @@
 .dt-team-shortcode .team-author p {
   font:    15px / 25px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
-  color: #bca9a3;
+  color: #2d8221;
 }
 .accent-gradient .dt-team-shortcode .team-author p {
   background: -webkit-linear-gradient();
@@ -100,7 +100,7 @@
 }
 @media all and (-ms-high-contrast: none) {
   .accent-gradient .dt-team-shortcode .team-author p {
-    color: #bca9a3;
+    color: #2d8221;
   }
 }
 .dt-mega-parent .sidebar-content .widget .team-author p {
@@ -131,7 +131,7 @@
   font-size: 15px;
   line-height: 19px;
   font-weight: normal;
-  color: #bca9a3;
+  color: #2d8221;
 }
 .accent-gradient .dt-testimonials-shortcode .testimonial-vcard .text-secondary {
   background: -webkit-linear-gradient();
@@ -141,11 +141,11 @@
 }
 @media all and (-ms-high-contrast: none) {
   .accent-gradient .dt-testimonials-shortcode .testimonial-vcard .text-secondary {
-    color: #bca9a3;
+    color: #2d8221;
   }
 }
 .dt-testimonials-shortcode .more-link {
-  color: #bca9a3;
+  color: #2d8221;
 }
 .testimonial-vcard .text-primary {
   color: #000000;
@@ -183,7 +183,7 @@
   font: normal  normal 20px / 26px "Poppins", Helvetica, Arial, Verdana, sans-serif;
 }
 .content .team-author-name a:hover {
-  color: #bca9a3;
+  color: #2d8221;
 }
 .accent-gradient .content .team-author-name a:hover {
   background: -webkit-linear-gradient();
@@ -193,7 +193,7 @@
 }
 @media all and (-ms-high-contrast: none) {
   .accent-gradient .content .team-author-name a:hover {
-    color: #bca9a3;
+    color: #2d8221;
   }
 }
 .widget .team-author-name,
@@ -273,7 +273,7 @@
 }
 #main-slideshow .progress-spinner-left,
 #main-slideshow .progress-spinner-right {
-  border-color: #bca9a3 !important;
+  border-color: #2d8221 !important;
 }
 .slider-content .owl-dot:not(.active):not(:hover),
 .slider-content .owl-dot:not(.active):hover {

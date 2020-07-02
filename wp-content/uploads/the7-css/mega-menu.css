@@ -423,7 +423,7 @@
   color: #000000;
 }
 .main-nav .sub-nav > li.dt-mega-parent:not(.act):not(.wpml-ls-item) > a:not(.not-clickable-item):hover .menu-text {
-  color: #bca9a3;
+  color: #2d8221;
 }
 .main-nav .sub-nav > li.dt-mega-parent.current-menu-item > a .menu-text {
   color: #000000;
@@ -444,7 +444,7 @@
   color: #000000;
 }
 .main-nav .dt-mega-menu .sub-nav .dt-mega-parent:not(.current-menu-item) > a:not(.not-clickable-item):hover i {
-  color: #bca9a3;
+  color: #2d8221;
 }
 .main-nav .dt-mega-menu .sub-nav .dt-mega-parent.current-menu-item > a i {
   color: #000000;
@@ -488,7 +488,7 @@
 }
 .dt-mega-parent .sidebar-content .widget a:not(.button):not(.dt-btn):hover,
 .dt-mega-parent .sidebar-content .widget a:not(.button):not(.dt-btn):hover * {
-  color: #bca9a3;
+  color: #2d8221;
 }
 .mobile-main-nav > li .dt-mega-menu-wrap,
 .mobile-main-nav > li .dt-mega-menu-wrap > .sub-nav .sub-nav {
@@ -502,7 +502,7 @@
   background-color: rgba(102,102,102,0.15);
 }
 .mega-menu-widgets .soc-ico a:after {
-  background-color: #bca9a3;
+  background-color: #2d8221;
   box-shadow: none;
 }
 .dt-mega-parent .sidebar-content .widget .soc-ico a:not(:hover) .soc-font-icon {
@@ -543,7 +543,7 @@
 .dt-mega-parent .sidebar-content .widget .tagcloud a:hover,
 .dt-mega-parent .sidebar-content .widget .widget_nav_menu a:hover,
 .dt-mega-parent .sidebar-content .widget a.rsswidget:hover {
-  color: #bca9a3;
+  color: #2d8221;
 }
 .dt-mega-parent .sidebar-content .widget .custom-menu a:after {
   color: rgba(102,102,102,0.5);

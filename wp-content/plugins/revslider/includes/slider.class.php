@@ -1046,6 +1046,26 @@ class RevSliderSlider extends RevSliderFunctions {
 				$c_slide	= new RevSliderSlide();
 				$c_slide->init_by_data($slide);
 				$layers		= $c_slide->get_layers();
+				
+				//change for WPML the parent IDs if necessary
+				$parent_id	= $this->get_val($c_slide, array('params', 'child', 'parentId'), false);
+				
+				if(!in_array($parent_id, array(false, ''), true) && isset($this->map[$parent_id])){
+					$create = array('params' => $this->get_val($c_slide, 'params', array()));
+					
+					$this->set_val($create, array('params', 'child', 'parentId'), $this->map[$parent_id]);
+					
+					$new_params = json_encode($create['params']);
+					$new_params = (empty($new_params)) ? stripslashes(json_encode($create['params'])) : $new_params;
+					$create['params'] = $new_params;
+					
+					$wpdb->update(
+						$wpdb->prefix . RevSliderFront::TABLE_SLIDES,
+						$create,
+						array('id' => $slide['id'])
+					);
+				}
+				
 				$did_change	= false;
 				if(!empty($layers)){
 					foreach($layers as $key => $value){
@@ -2052,9 +2072,10 @@ class RevSliderSlider extends RevSliderFunctions {
 			break;
 			case 'instagram':
 				$instagram	 = new RevSliderInstagram($this->get_param(array('source', 'instagram', 'transient'), '1200'));
-				$posts		 = ($this->get_param(array('source', 'instagram', 'type'), 'user') != 'hash') ? $instagram->get_public_photos($this->get_param(array('source', 'instagram', 'userId')), $this->get_param(array('source', 'instagram', 'count'), '33')) : $instagram->get_tag_photos($this->get_param(array('source', 'instagram', 'hashTag')), $this->get_param(array('source', 'instagram', 'count'), '33'));
+				$posts		 = ($this->get_param(array('source', 'instagram', 'type'), 'user') != 'hash') ? $instagram->get_public_photos($this->get_param(array('source', 'instagram', 'token')), $this->get_param(array('source', 'instagram', 'count'), '33')) : $instagram->get_tag_photos($this->get_param(array('source', 'instagram', 'hashTag')), $this->get_param(array('source', 'instagram', 'count'), '33'));
 				$max_posts	 = $this->get_param(array('source', 'instagram', 'count'), '33');
-				$additions['instagram_user'] = $this->get_param(array('source', 'instagram', 'userId'));
+				$profile = $instagram->get_user_profile($this->get_param(array('source', 'instagram', 'token')));
+				$additions['instagram_user'] = isset($profile['username']) ? $profile['username'] : '';
 				$max_allowed = 33;
 			break;
 			case 'flickr':
@@ -2516,4 +2537,3 @@ class RevSliderSlider extends RevSliderFunctions {
 		return $arr;
 	}
 }
-?>

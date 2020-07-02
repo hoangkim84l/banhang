@@ -1732,6 +1732,8 @@ class RevSliderOutput extends RevSliderFunctions {
 		//$this->push_layer_class();
 		$check_continue		= $this->check_layer_continue($special_type, $row_group_uid);
 		if(!$check_continue) return false;
+		$check_continue		= $this->check_layer_video_continue();
+		if(!$check_continue) return false;
 		$html_type			= $this->get_html_layer_type();
 		$class				= $this->get_layer_class();
 		$html_simple_link	= $this->get_action_link();
@@ -1903,6 +1905,58 @@ class RevSliderOutput extends RevSliderFunctions {
 		
 		return true;
 	}
+	
+	
+	/**
+	 * check if the layer is okay to be added or if we should move to the next layer
+	 **/
+	public function check_layer_video_continue(){
+		$layer	= $this->get_layer();
+		
+		if($this->get_val($layer, 'type', 'text') !== 'video') return true;
+		$video_type = trim($this->get_val($layer, array('media', 'mediaType')));
+		$video_type = ($video_type === '') ? 'html5' : $video_type;
+		
+		if(!in_array($video_type, array('streamyoutube', 'streamyoutubeboth', 'youtube', 'streamvimeo', 'streamvimeoboth', 'vimeo', 'streaminstagram', 'streaminstagramboth', 'html5'), true)) return true;
+		
+		$vid = trim($this->get_val($layer, array('media', 'id')));
+		
+		switch($video_type){
+			case 'streaminstagram':
+			case 'streaminstagramboth':
+			case 'html5':
+				$ogv = trim($this->get_val($layer, array('media', 'ogvUrl'), ''));
+				$webm = trim($this->get_val($layer, array('media', 'webmUrl'), ''));
+				$mp4 = trim($this->remove_http($this->get_val($layer, array('media', 'mp4Url'), '')));
+				
+				if(empty($ogv) && empty($webm) && empty($mp4)){
+					$vid = trim($this->get_val($layer, array('media', 'id')));
+					return (empty($vid)) ?  false : true;
+				}
+				
+				return true;
+			break;
+			case 'youtube':
+			case 'streamyoutube':
+			case 'streamyoutubeboth':
+				$vid = (in_array($video_type, array('streamyoutube', 'streamyoutubeboth'), true)) ? $this->slide->get_param(array('bg', 'youtube'), '') : $vid; //change $vid to the stream!
+				$vid = ($this->get_val($layer, array('media', 'videoFromStream'), false) === true) ? $this->slide->get_param(array('bg', 'youtube'), '') : $vid;
+				
+				return (empty($vid)) ?  false : true;
+			break;
+			case 'vimeo':
+			case 'streamvimeo':
+			case 'streamvimeoboth':
+				$vid = (in_array($video_type, array('streamvimeo', 'streamvimeoboth'), true)) ? $this->slide->get_param(array('bg', 'vimeo'), '') : $vid;
+				$vid = ($this->get_val($layer, array('media', 'videoFromStream'), false) === true) ? $this->slide->get_param(array('bg', 'youtube'), '') : $vid;
+				
+				return (empty($vid)) ?  false : true;
+			break;
+		}
+		
+		return (empty($vid)) ?  false : true;
+	}
+	
 	
 	/**
 	 * push the current layer class into the class usage array
@@ -6821,7 +6875,10 @@ rs-module .material-icons {
 			$pb_xof = $s->get_param(array('general', 'progressbar', 'x'), '0px');
 			$pb_yof = $s->get_param(array('general', 'progressbar', 'y'), '0px');
 
+			$pb_alignby = $s->get_param(array('general', 'progressbar', 'alignby'), 'slider');
+
 			if ($pb_basedon!=="slide") $pb['basedon'] = $pb_basedon;
+			if ($pb_alignby!=="slider") $pb['alignby'] = $pb_alignby;
 			if ($pb_bgcolor!=="transparent") $pb["bgcolor"] = $pb_bgcolor;
 			if ($pb_color!=="rgba(255,255,255,0.5)") $pb["color"] = $pb_color;
 			if ($pb_basedon==="module") {
@@ -7275,6 +7332,10 @@ rs-module .material-icons {
 			),
 			'autoHeight' => array(
 				'v' => $s->get_param(array('size', 'respectAspectRatio'), false),
+				'd' => false
+			),
+			'enableUpscaling' => array(
+				'v' => $s->get_param(array('size', 'enableUpscaling'), false),
 				'd' => false
 			),
 			'hideSliderAtLimit' => array(

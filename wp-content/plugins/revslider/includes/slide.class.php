@@ -1217,6 +1217,7 @@ class RevSliderSlide extends RevSliderFunctions {
 		$videos = $this->get_val($this->post_data, array('videos', 'standard_resolution', 'url'));
 		if(!empty($videos)){
 			$this->set_param('slide_bg_instagram', $videos); //set video for background video
+			$this->set_param(array('bg', 'type'), 'streaminstagram'); //set background type
 			$this->set_param(array('bg', 'mpeg'), $videos); //set video for background video
 		}
 		
