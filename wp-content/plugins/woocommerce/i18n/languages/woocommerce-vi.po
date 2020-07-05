@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2020-06-23T22:16:25+00:00\n"
-"PO-Revision-Date: 2020-07-02 04:23+0000\n"
+"PO-Revision-Date: 2020-07-05 03:21+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: vi\n"
@@ -6775,11 +6775,11 @@ msgstr "Tổng cộng"
 
 #: includes/abstracts/abstract-wc-payment-gateway.php:191
 msgid "Return to payments"
-msgstr ""
+msgstr "Trở về trang thanh toán"
 
 #: includes/abstracts/abstract-wc-payment-gateway.php:517
 msgid "Use a new payment method"
-msgstr ""
+msgstr "Sử dụng phương thức thanh toán mới"
 
 #: includes/abstracts/abstract-wc-payment-gateway.php:542
 msgid "Save to account"
@@ -6795,7 +6795,7 @@ msgstr ""
 
 #: includes/abstracts/abstract-wc-product.php:904
 msgid "Invalid product tax status."
-msgstr ""
+msgstr "Tình trạng thuế sản phẩm không hợp lệ."
 
 #. translators: %1$s: Downloadable file
 #: includes/abstracts/abstract-wc-product.php:1229
@@ -7189,12 +7189,16 @@ msgid ""
 "This product has produced sales and may be linked to existing orders. Are "
 "you sure you want to delete it?"
 msgstr ""
+"Sản phẩm này đã tạo ra doanh số và có thể được liên kết với các đơn đặt hàng "
+"hiện có. Bạn có chắc chắn muốn xóa nó?"
 
 #: includes/admin/class-wc-admin-assets.php:189
 msgid ""
 "This action cannot be reversed. Are you sure you wish to erase personal data "
 "from the selected orders?"
 msgstr ""
+"Hành động này không thể đảo ngược. Bạn có chắc chắn muốn xóa dữ liệu cá nhân "
+"khỏi các đơn đặt hàng đã chọn không?"
 
 #: includes/admin/class-wc-admin-assets.php:194
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:139
@@ -7672,7 +7676,7 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-attributes.php:331
 msgid "(Public)"
-msgstr ""
+msgstr "(Công khai)"
 
 #: includes/admin/class-wc-admin-attributes.php:367
 msgid "Configure terms"
@@ -7751,14 +7755,14 @@ msgstr ""
 #: includes/admin/class-wc-admin-dashboard.php:181
 msgid "<strong>%s order</strong> awaiting processing"
 msgid_plural "<strong>%s orders</strong> awaiting processing"
-msgstr[0] ""
+msgstr[0] "<strong>%s đơn hàng</strong>đang chờ xữ lý"
 msgstr[1] ""
 
 #. translators: %s: order count
 #: includes/admin/class-wc-admin-dashboard.php:192
 msgid "<strong>%s order</strong> on-hold"
 msgid_plural "<strong>%s orders</strong> on-hold"
-msgstr[0] ""
+msgstr[0] "<strong>%s đơn hàng</strong> tạm dừng"
 msgstr[1] ""
 
 #. translators: %s: order count
@@ -7827,7 +7831,7 @@ msgstr "Đặt hàng"
 #: packages/woocommerce-admin/dist/chunks/analytics-report-products.28c933e5937d420efe22.js:180
 #: packages/woocommerce-admin/dist/chunks/analytics-report-stock.2939053e1a82a2ae848c.js:187
 msgid "Status"
-msgstr ""
+msgstr "Trạng thái"
 
 #: includes/admin/class-wc-admin-dashboard.php:360
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:126
@@ -7845,7 +7849,7 @@ msgstr "Tổng cộng"
 #: includes/admin/class-wc-admin-dashboard.php:369
 #: includes/class-wc-post-types.php:388
 msgid "No orders found"
-msgstr ""
+msgstr "Không tìm thấy đơn hàng nào cả"
 
 #. translators: %s: post title
 #: includes/admin/class-wc-admin-duplicate-product.php:59
@@ -7923,7 +7927,7 @@ msgstr ""
 #: packages/woocommerce-admin/includes/connect-existing-pages.php:41
 #: packages/woocommerce-admin/src/Features/Navigation.php:240
 msgid "System status"
-msgstr ""
+msgstr "Trạng thái hệ thống"
 
 #: includes/admin/class-wc-admin-help.php:57
 msgid "Community forum"
@@ -8199,6 +8203,8 @@ msgid ""
 "Note: Permissions for order items will automatically be granted when the "
 "order status changes to processing/completed."
 msgstr ""
+"Lưu ý: Quyền cho các mục đơn hàng sẽ tự động được cấp khi trạng thái đơn "
+"hàng thay đổi thành xử lý / hoàn thành."
 
 #. Translators: %s order type name.
 #: includes/admin/class-wc-admin-meta-boxes.php:131
@@ -8555,20 +8561,20 @@ msgstr ""
 #: includes/admin/class-wc-admin-post-types.php:150
 #: includes/admin/class-wc-admin-post-types.php:152
 msgid "Order updated."
-msgstr ""
+msgstr "Đã cập nhật đơn hàng"
 
 #: includes/admin/class-wc-admin-post-types.php:153
 msgid "Order saved."
-msgstr ""
+msgstr "Đã lưu đơn hàng"
 
 #: includes/admin/class-wc-admin-post-types.php:154
 msgid "Order submitted."
-msgstr ""
+msgstr "Đã gởi đơn hàng"
 
 #. translators: %s: date
 #: includes/admin/class-wc-admin-post-types.php:157
 msgid "Order scheduled for: %s."
-msgstr ""
+msgstr "Đặt hàng theo lịch trình cho: %s."
 
 #: includes/admin/class-wc-admin-post-types.php:160
 msgid "Order draft updated."
@@ -8576,7 +8582,7 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-post-types.php:161
 msgid "Order updated and sent."
-msgstr ""
+msgstr "Đã cập nhật thông tin và gởi đơn hàng"
 
 #: includes/admin/class-wc-admin-post-types.php:166
 #: includes/admin/class-wc-admin-post-types.php:169
@@ -8640,7 +8646,7 @@ msgstr[1] ""
 #: includes/admin/class-wc-admin-post-types.php:208
 msgid "%s order updated."
 msgid_plural "%s orders updated."
-msgstr[0] ""
+msgstr[0] "%s đơn hàng đã được cập nhật."
 msgstr[1] ""
 
 #. translators: %s: order count
@@ -8780,7 +8786,7 @@ msgstr ""
 #: includes/admin/class-wc-admin-profile.php:43
 #: includes/admin/settings/views/settings-tax.php:40
 msgid "Customer billing address"
-msgstr ""
+msgstr "Địa chỉ thanh toán của khách hàng"
 
 #: includes/admin/class-wc-admin-profile.php:46
 #: includes/admin/class-wc-admin-profile.php:106
@@ -8823,7 +8829,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/profile-wizard.314f6a9f9e0ee86eb8bf.js:951
 #: packages/woocommerce-admin/dist/chunks/task-list.52fe0e41a24d55f1b9b1.js:539
 msgid "Address line 1"
-msgstr ""
+msgstr "Địa chỉ 1"
 
 #: includes/admin/class-wc-admin-profile.php:62
 #: includes/admin/class-wc-admin-profile.php:122
@@ -8839,7 +8845,7 @@ msgstr ""
 #: packages/woocommerce-rest-api/src/Controllers/Version3/class-wc-rest-customers-controller.php:175
 #: packages/woocommerce-rest-api/src/Controllers/Version3/class-wc-rest-customers-controller.php:238
 msgid "Address line 2"
-msgstr ""
+msgstr "Địa chỉ 2"
 
 #: includes/admin/class-wc-admin-profile.php:66
 #: includes/admin/class-wc-admin-profile.php:126
@@ -8938,7 +8944,7 @@ msgstr ""
 #: includes/admin/class-wc-admin-profile.php:96
 #: includes/admin/settings/views/settings-tax.php:39
 msgid "Customer shipping address"
-msgstr ""
+msgstr "Địa chỉ giao hàng của khách hàng"
 
 #: includes/admin/class-wc-admin-profile.php:99
 msgid "Copy from billing address"
@@ -9190,7 +9196,7 @@ msgstr ""
 #: includes/admin/class-wc-admin-setup-wizard.php:279
 #: includes/admin/class-wc-admin-setup-wizard.php:1884
 msgid "Payment"
-msgstr ""
+msgstr "Thanh toán"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:284
 #: includes/admin/class-wc-admin-setup-wizard.php:1086
@@ -9608,11 +9614,11 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1587
 msgid "Direct payments to email address:"
-msgstr ""
+msgstr "Thanh toán trực tiếp đến địa chỉ email:"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1590
 msgid "Email address to receive payments"
-msgstr ""
+msgstr "Địa chỉ email để nhận thanh toán"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1596
 msgid "PayPal Standard"
@@ -9702,11 +9708,12 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/43.52fe0e41a24d55f1b9b1.js:5039
 #: packages/woocommerce-admin/dist/chunks/task-list.52fe0e41a24d55f1b9b1.js:5039
 msgid "Cash on delivery"
-msgstr ""
+msgstr "Giao hàng nhận tiền"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1742
 msgid "A simple offline gateway that lets you accept cash on delivery."
 msgstr ""
+"Một cổng ngoại tuyến đơn giản cho phép bạn chấp nhận tiền mặt khi giao hàng."
 
 #. translators: %s: Link
 #: includes/admin/class-wc-admin-setup-wizard.php:1891
@@ -9837,7 +9844,7 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:2224
 msgid "payment setup"
-msgstr ""
+msgstr "Cài đặt thanh toán"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:2226
 msgid "automated taxes and discounted shipping labels"
@@ -11564,15 +11571,15 @@ msgstr "Hành động"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:145
 msgid "Change status to processing"
-msgstr ""
+msgstr "Thay đổi trạng thái sang đang xữ lý"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:146
 msgid "Change status to on-hold"
-msgstr ""
+msgstr "Thay đổi trạng thái sang tạm dừng"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:147
 msgid "Change status to completed"
-msgstr ""
+msgstr "Thay đổi trạng thái thành công"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:150
 msgid "Remove personal data"
@@ -11622,7 +11629,7 @@ msgstr ""
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:365
 #: includes/class-wc-query.php:115
 msgid "Order #%s"
-msgstr ""
+msgstr "Đơn hàng #%s"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:367
 #: includes/admin/settings/views/html-admin-page-shipping-zone-methods.php:151
@@ -11650,7 +11657,7 @@ msgstr ""
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:389
 msgid "Payment via"
-msgstr ""
+msgstr "Thanh toán thông qua"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:395
 #: includes/gateways/paypal/includes/settings-paypal.php:91
@@ -11686,11 +11693,11 @@ msgstr "Chờ"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:563
 msgid "Change order status to on-hold"
-msgstr ""
+msgstr "Thay đổi trạng thái đơn hàng thành chờ"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:572
 msgid "Change order status to processing"
-msgstr ""
+msgstr "Thay đổi trạng thái đơn hàng để xử lý"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:580
 msgid "Completed"
@@ -11698,11 +11705,11 @@ msgstr ""
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:581
 msgid "Change order status to completed"
-msgstr ""
+msgstr "Thay đổi trạng thái đơn hàng thành công"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:588
 msgid "Change status: "
-msgstr ""
+msgstr "Thay đổi trạng thái"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:635
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:636
@@ -11754,13 +11761,13 @@ msgstr ""
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:682
 msgid "Order status changed by bulk edit:"
-msgstr ""
+msgstr "Trạng thái đơn hàng thay đổi bằng cách chỉnh sửa hàng loạt:"
 
 #. translators: %d: orders count
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:723
 msgid "%d order status changed."
 msgid_plural "%d order statuses changed."
-msgstr[0] ""
+msgstr[0] "%d đã thay đổi trạng thái đơn hàng."
 msgstr[1] ""
 
 #. translators: %d: orders count
@@ -12116,7 +12123,7 @@ msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:108
 msgid "Order details manually sent to customer."
-msgstr ""
+msgstr "Chi tiết đặt hàng bằng tay gửi cho khách hàng."
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:179
 msgid "%1$s #%2$s details"
@@ -12124,7 +12131,7 @@ msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:194
 msgid "Payment via %s"
-msgstr ""
+msgstr "Thanh toán thông qua %s"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:212
 msgid "Paid on %1$s @ %2$s"
@@ -12151,7 +12158,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/18.df9e5476385261b65933.js:1175
 #: packages/woocommerce-admin/dist/chunks/analytics-settings.8c382b88264494e5d4eb.js:1175
 msgid "Status:"
-msgstr ""
+msgstr "Trạng thái"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:251
 msgid "Customer payment page &rarr;"
@@ -12176,7 +12183,7 @@ msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:317
 msgid "Load billing address"
-msgstr ""
+msgstr "Tải địa chỉ thanh toán"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:327
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:444
@@ -12185,13 +12192,13 @@ msgstr "Địa chỉ:"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:327
 msgid "No billing address set."
-msgstr ""
+msgstr "Không có địa chỉ thanh toán được đặt."
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:391
 #: includes/class-wc-order.php:2026 templates/checkout/order-receipt.php:38
 #: templates/checkout/thankyou.php:70
 msgid "Payment method:"
-msgstr ""
+msgstr "Phương thức thanh toán"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:407
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:409
@@ -12210,11 +12217,11 @@ msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:433
 msgid "Load shipping address"
-msgstr ""
+msgstr "Tải địa chỉ giao hàng"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:434
 msgid "Copy billing address"
-msgstr ""
+msgstr "Sao chép địa chỉ thanh toán"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:444
 msgid "No shipping address set."
@@ -12583,7 +12590,7 @@ msgstr ""
 
 #: includes/admin/meta-boxes/views/html-order-items.php:347
 msgid "Payment gateway"
-msgstr ""
+msgstr "Cổng thanh toán"
 
 #. translators: refund amount, gateway name
 #: includes/admin/meta-boxes/views/html-order-items.php:351
@@ -12892,7 +12899,7 @@ msgstr ""
 #: includes/admin/meta-boxes/views/html-variation-admin.php:234
 #: includes/admin/reports/class-wc-report-stock.php:176
 msgid "Stock status"
-msgstr ""
+msgstr "Trạng thái kho"
 
 #: includes/admin/meta-boxes/views/html-product-data-inventory.php:102
 #: includes/admin/meta-boxes/views/html-variation-admin.php:237
@@ -13092,15 +13099,15 @@ msgstr ""
 
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:75
 msgid "Set Status - In stock"
-msgstr ""
+msgstr "Cài đặt trạng thái - còn hàng"
 
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:76
 msgid "Set Status - Out of stock"
-msgstr ""
+msgstr "Cài đặt trạng thái - hết hàng"
 
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:77
 msgid "Set Status - On backorder"
-msgstr ""
+msgstr "Đặt trạng thái - Trên backorder"
 
 #. translators: Submit button text for the price filter.
 #: includes/admin/meta-boxes/views/html-product-data-variations.php:91
@@ -13621,7 +13628,7 @@ msgstr ""
 
 #: includes/admin/reports/class-wc-report-customer-list.php:220
 msgid "Last order"
-msgstr ""
+msgstr "đơn hàng cuối cùng"
 
 #. translators: %s: signups amount
 #: includes/admin/reports/class-wc-report-customers.php:44
@@ -13639,12 +13646,12 @@ msgstr ""
 #: includes/admin/reports/class-wc-report-customers.php:126
 #: includes/admin/reports/class-wc-report-customers.php:332
 msgid "Customer orders"
-msgstr ""
+msgstr "Khách hàng đặc hàng"
 
 #: includes/admin/reports/class-wc-report-customers.php:131
 #: includes/admin/reports/class-wc-report-customers.php:342
 msgid "Guest orders"
-msgstr ""
+msgstr "Khách đặc hàng"
 
 #: includes/admin/reports/class-wc-report-customers.php:150
 #: packages/woocommerce-admin/dist/chunks/4.b94ffcec7f813ed34edb.js:1308
@@ -13802,7 +13809,7 @@ msgstr ""
 #. translators: %s: total orders
 #: includes/admin/reports/class-wc-report-sales-by-date.php:518
 msgid "%s orders placed"
-msgstr ""
+msgstr "%s đặt hàng"
 
 #. translators: %s: total items
 #: includes/admin/reports/class-wc-report-sales-by-date.php:528
@@ -13813,7 +13820,7 @@ msgstr ""
 #: includes/admin/reports/class-wc-report-sales-by-date.php:537
 msgid "%1$s refunded %2$d order (%3$d item)"
 msgid_plural "%1$s refunded %2$d orders (%3$d items)"
-msgstr[0] ""
+msgstr[0] "%1$s đã hoàn tìn %2$d đơn hàng (%3$d sản phẩm)"
 msgstr[1] ""
 
 #. translators: %s: total shipping
@@ -13837,7 +13844,7 @@ msgstr "Số lượng mặt hàng bán"
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:212
 #: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:165
 msgid "Number of orders"
-msgstr ""
+msgstr "Số lượng đơn đặt hàng"
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:716
 msgid "Average gross sales amount"
@@ -13979,7 +13986,7 @@ msgstr ""
 
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:213
 msgid "This is the sum of the 'Order total' field within your orders."
-msgstr ""
+msgstr "Đây là tổng của trường 'Tổng đơn hàng' trong đơn đặt hàng của bạn."
 
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:214
 msgid "Total shipping"
@@ -13987,7 +13994,7 @@ msgstr ""
 
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:214
 msgid "This is the sum of the 'Shipping total' field within your orders."
-msgstr ""
+msgstr "Đây là tổng của trường 'Tổng vận chuyển' trong đơn đặt hàng của bạn."
 
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:216
 msgid "Net profit"
@@ -14016,7 +14023,7 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-accounts.php:51
 msgid "Allow customers to place orders without an account"
-msgstr ""
+msgstr "Cho phép khách hàng đặt hàng mà không cần tài khoản"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:59
 #: includes/class-wc-download-handler.php:183 templates/auth/form-login.php:49
@@ -14056,7 +14063,7 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-accounts.php:102
 msgid "Remove personal data from orders on request"
-msgstr ""
+msgstr "Xóa dữ liệu cá nhân khỏi đơn đặt hàng theo yêu cầu"
 
 #. Translators: %s URL to erasure request screen.
 #: includes/admin/settings/class-wc-settings-accounts.php:104
@@ -14174,7 +14181,7 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-accounts.php:195
 msgid "Retain pending orders "
-msgstr ""
+msgstr "Giữ lại các đơn đặt hàng đang chờ xử lý"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:196
 msgid ""
@@ -14184,7 +14191,7 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-accounts.php:204
 msgid "Retain failed orders"
-msgstr ""
+msgstr "Giữ lại các đơn hàng thất bại"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:205
 msgid ""
@@ -14194,7 +14201,7 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-accounts.php:213
 msgid "Retain cancelled orders"
-msgstr ""
+msgstr "Giữ lại các đơn đặt hàng đã hủy"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:214
 msgid ""
@@ -14204,7 +14211,7 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-accounts.php:222
 msgid "Retain completed orders"
-msgstr ""
+msgstr "Giữ lại các đơn đặt hàng thành công"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:223
 msgid ""
@@ -14295,7 +14302,7 @@ msgstr ""
 #: includes/admin/settings/class-wc-settings-advanced.php:190
 #: includes/wc-account-functions.php:282 templates/checkout/thankyou.php:34
 msgid "Pay"
-msgstr ""
+msgstr "Trả"
 
 #: includes/admin/settings/class-wc-settings-advanced.php:191
 msgid "Endpoint for the \"Checkout &rarr; Pay\" page."
@@ -14304,7 +14311,7 @@ msgstr ""
 #: includes/admin/settings/class-wc-settings-advanced.php:199
 #: includes/class-wc-query.php:102
 msgid "Order received"
-msgstr ""
+msgstr "Đã nhận đơn hàng"
 
 #: includes/admin/settings/class-wc-settings-advanced.php:200
 msgid "Endpoint for the \"Checkout &rarr; Order received\" page."
@@ -14315,7 +14322,7 @@ msgstr ""
 #: templates/myaccount/form-add-payment-method.php:52
 #: templates/myaccount/payment-methods.php:77
 msgid "Add payment method"
-msgstr ""
+msgstr "Thêm phương thức thanh toán"
 
 #: includes/admin/settings/class-wc-settings-advanced.php:209
 msgid "Endpoint for the \"Checkout &rarr; Add payment method\" page."
@@ -14323,7 +14330,7 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-advanced.php:217
 msgid "Delete payment method"
-msgstr ""
+msgstr "Xóa phương thức thanh toán"
 
 #: includes/admin/settings/class-wc-settings-advanced.php:218
 msgid "Endpoint for the delete payment method page."
@@ -14331,7 +14338,7 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-advanced.php:226
 msgid "Set default payment method"
-msgstr ""
+msgstr "Đặt mặc định phương thức thanh toán"
 
 #: includes/admin/settings/class-wc-settings-advanced.php:227
 msgid "Endpoint for the setting a default payment method page."
@@ -14490,7 +14497,7 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-emails.php:79
 msgid "\"From\" name"
-msgstr ""
+msgstr "\"Từ\" tên"
 
 #: includes/admin/settings/class-wc-settings-emails.php:80
 msgid "How the sender name appears in outgoing WooCommerce emails."
@@ -14498,7 +14505,7 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-emails.php:90
 msgid "\"From\" address"
-msgstr ""
+msgstr "\"Từ\" địa chỉ"
 
 #: includes/admin/settings/class-wc-settings-emails.php:91
 msgid "How the sender email appears in outgoing WooCommerce emails."
@@ -14623,7 +14630,7 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-general.php:47
 msgid "Store Address"
-msgstr ""
+msgstr "Địa chỉ cửa hàng"
 
 #: includes/admin/settings/class-wc-settings-general.php:49
 msgid ""
@@ -15237,11 +15244,11 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-shipping.php:114
 msgid "Default to customer shipping address"
-msgstr ""
+msgstr "Mặc định địa chỉ giao hàng của khách hàng"
 
 #: includes/admin/settings/class-wc-settings-shipping.php:115
 msgid "Default to customer billing address"
-msgstr ""
+msgstr "Mặc định địa chỉ thanh toán của khách hàng"
 
 #: includes/admin/settings/class-wc-settings-shipping.php:116
 msgid "Force shipping to the customer billing address"
@@ -15588,7 +15595,7 @@ msgstr ""
 
 #: includes/admin/settings/views/html-settings-tax.php:17
 msgid "\"%s\" tax rates"
-msgstr ""
+msgstr "\"%s\" thuế"
 
 #: includes/admin/settings/views/html-settings-tax.php:18
 #: includes/admin/views/html-bulk-edit-product.php:95
@@ -15760,15 +15767,15 @@ msgstr ""
 
 #: includes/admin/settings/views/html-webhooks-edit.php:75
 msgid "Order created"
-msgstr ""
+msgstr "Đã tạo đơn hàng"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:76
 msgid "Order updated"
-msgstr ""
+msgstr "Đã cập nhật đơn hàng"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:77
 msgid "Order deleted"
-msgstr ""
+msgstr "Đã xóa đơn hàng"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:78
 msgid "Order restored"
@@ -16858,7 +16865,7 @@ msgstr ""
 #: includes/admin/views/html-bulk-edit-product.php:258
 #: includes/admin/views/html-bulk-edit-product.php:298
 msgid "— No change —"
-msgstr ""
+msgstr "— Không thay đổi —"
 
 #: includes/admin/views/html-bulk-edit-product.php:27
 #: includes/admin/views/html-bulk-edit-product.php:51
@@ -16953,7 +16960,7 @@ msgstr ""
 #: includes/admin/views/html-bulk-edit-product.php:222
 #: includes/admin/views/html-bulk-edit-product.php:280
 msgid "— No Change —"
-msgstr ""
+msgstr "— Không thay đổi —"
 
 #: includes/admin/views/html-bulk-edit-product.php:253
 #: includes/admin/views/html-bulk-edit-product.php:271
@@ -17472,6 +17479,8 @@ msgid_plural ""
 "%d items from your previous order are currently unavailable and could not be "
 "added to your cart."
 msgstr[0] ""
+"%d mục từ đơn đặt hàng trước của bạn hiện không có sẵn và không thể thêm vào "
+"giỏ hàng của bạn."
 msgstr[1] ""
 
 #: includes/class-wc-cart-session.php:426
@@ -17500,6 +17509,8 @@ msgid ""
 "Sorry, we do not have enough \"%1$s\" in stock to fulfill your order (%2$s "
 "available). We apologize for any inconvenience caused."
 msgstr ""
+"Xin lỗi, chúng tôi không có đủ \"%1$s\" trong kho để thực hiện đơn hàng của "
+"bạn (%2$s có sẵn). Chúng tôi xin lỗi vì bất kỳ sự bất tiện gây ra."
 
 #. translators: %s: product name
 #: includes/class-wc-cart.php:1043 includes/class-wc-cart.php:1080
@@ -17557,7 +17568,7 @@ msgstr ""
 
 #: includes/class-wc-checkout.php:239
 msgid "Order notes"
-msgstr ""
+msgstr "Ghi chú đơn hàng"
 
 #: includes/class-wc-checkout.php:240
 msgid "Notes about your order, e.g. special notes for delivery."
@@ -17611,7 +17622,7 @@ msgstr ""
 #. translators: %s: Email address.
 #: includes/class-wc-checkout.php:768 includes/class-wc-form-handler.php:150
 msgid "%s is not a valid email address."
-msgstr ""
+msgstr "%s địa chỉ email không hợp lệ"
 
 #. translators: 1: state field 2: valid states
 #: includes/class-wc-checkout.php:788
@@ -17632,7 +17643,7 @@ msgstr ""
 
 #: includes/class-wc-checkout.php:820
 msgid "Please enter an address to continue."
-msgstr ""
+msgstr "Vui lòng điền địa chỉ để tiếp tục"
 
 #. translators: %s: shipping location
 #: includes/class-wc-checkout.php:823
@@ -17640,19 +17651,23 @@ msgid ""
 "Unfortunately <strong>we do not ship %s</strong>. Please enter an "
 "alternative shipping address."
 msgstr ""
+"Thật không may <strong> chúng tôi không giao hàng %s </ strong>. Vui lòng "
+"nhập một địa chỉ giao hàng thay thế."
 
 #: includes/class-wc-checkout.php:829
 msgid ""
 "No shipping method has been selected. Please double check your address, or "
 "contact us if you need any help."
 msgstr ""
+"Không có phương pháp vận chuyển đã được chọn. Vui lòng kiểm tra lại địa chỉ "
+"của bạn hoặc liên hệ với chúng tôi nếu bạn cần bất kỳ sự giúp đỡ nào."
 
 #: includes/class-wc-checkout.php:839 includes/class-wc-form-handler.php:406
 #: includes/class-wc-form-handler.php:413
 #: includes/class-wc-form-handler.php:536
 #: includes/class-wc-form-handler.php:561
 msgid "Invalid payment method."
-msgstr ""
+msgstr "Phương thức thanh toán không hợp lệ"
 
 #: includes/class-wc-checkout.php:1094
 msgid "We were unable to process your order, please try again."
@@ -17692,19 +17707,19 @@ msgstr ""
 
 #: includes/class-wc-countries.php:441
 msgid "(incl. VAT)"
-msgstr ""
+msgstr "(Đã bao gồm VAT)"
 
 #: includes/class-wc-countries.php:441
 msgid "(incl. tax)"
-msgstr ""
+msgstr "(Đã bao gồm TAX)"
 
 #: includes/class-wc-countries.php:452
 msgid "(ex. VAT)"
-msgstr ""
+msgstr "(Không bao gồm VAT)"
 
 #: includes/class-wc-countries.php:452
 msgid "(ex. tax)"
-msgstr ""
+msgstr "(không bao gồm thuế)"
 
 #: includes/class-wc-countries.php:652
 msgid "Apartment, suite, unit, etc. (optional)"
@@ -17721,7 +17736,7 @@ msgstr ""
 
 #: includes/class-wc-countries.php:688
 msgid "Street address"
-msgstr ""
+msgstr "Địa chỉ đường phố"
 
 #. translators: use local order of street name and house number.
 #: includes/class-wc-countries.php:690
@@ -17818,7 +17833,7 @@ msgstr ""
 
 #: includes/class-wc-coupon.php:693
 msgid "Invalid email address restriction"
-msgstr ""
+msgstr "Hạn chế địa chỉ email không hợp lệ"
 
 #: includes/class-wc-coupon.php:929
 msgid "Coupon code applied successfully."
@@ -17843,6 +17858,8 @@ msgid ""
 "Sorry, it seems the coupon \"%s\" is invalid - it has now been removed from "
 "your order."
 msgstr ""
+"Xin lỗi, có vẻ như phiếu giảm giá \"%s\" không hợp lệ - hiện đã bị xóa khỏi "
+"đơn đặt hàng của bạn."
 
 #. translators: %s: coupon code
 #: includes/class-wc-coupon.php:962
@@ -17909,7 +17926,7 @@ msgstr ""
 
 #: includes/class-wc-customer.php:721
 msgid "Invalid email address"
-msgstr ""
+msgstr "Địa chỉ email không hợp lệ"
 
 #. translators: 1: first name 2: last name
 #: includes/class-wc-customer.php:754
@@ -17923,7 +17940,7 @@ msgstr ""
 
 #: includes/class-wc-customer.php:971 includes/class-wc-order.php:1130
 msgid "Invalid billing email address"
-msgstr ""
+msgstr "Địa chỉ email thanh toán không hợp lệ"
 
 #: includes/class-wc-data-store.php:95 includes/class-wc-data-store.php:101
 #: includes/class-wc-data-store.php:107
@@ -18044,11 +18061,12 @@ msgstr ""
 
 #: includes/class-wc-form-handler.php:191
 msgid "Address changed successfully."
-msgstr ""
+msgstr "Thay đổi địa chỉ thành công"
 
 #: includes/class-wc-form-handler.php:245
 msgid "Display name cannot be changed to email address due to privacy concern."
 msgstr ""
+"Tên hiển thị không thể thay đổi thành địa chỉ email do mối quan tâm riêng tư."
 
 #: includes/class-wc-form-handler.php:254
 #: templates/myaccount/form-edit-account.php:37
@@ -18057,11 +18075,11 @@ msgstr ""
 
 #: includes/class-wc-form-handler.php:269 includes/wc-user-functions.php:43
 msgid "Please provide a valid email address."
-msgstr ""
+msgstr "Vui lòng cung cấp địa chỉ email hợp lệ"
 
 #: includes/class-wc-form-handler.php:271
 msgid "This email address is already registered."
-msgstr ""
+msgstr "Địa chỉ email này đã tồn tại"
 
 #: includes/class-wc-form-handler.php:277
 msgid "Please fill out all password fields."
@@ -18100,11 +18118,11 @@ msgstr[1] ""
 
 #: includes/class-wc-form-handler.php:495
 msgid "Invalid payment gateway."
-msgstr ""
+msgstr "Cổng thanh toán không hợp lệ"
 
 #: includes/class-wc-form-handler.php:508
 msgid "Payment method successfully added."
-msgstr ""
+msgstr "Thêm phương thức thanh toán thành công"
 
 #: includes/class-wc-form-handler.php:512
 msgid "Unable to add payment method to your account."
@@ -18112,7 +18130,7 @@ msgstr ""
 
 #: includes/class-wc-form-handler.php:539
 msgid "Payment method deleted."
-msgstr ""
+msgstr "Đã xóa phương thức thanh toán"
 
 #: includes/class-wc-form-handler.php:564
 msgid "This payment method was successfully set as your default."
@@ -18146,17 +18164,19 @@ msgstr ""
 
 #: includes/class-wc-form-handler.php:724
 msgid "Order cancelled by customer."
-msgstr ""
+msgstr "Đơn hàng bị hủy bởi khách hàng"
 
 #: includes/class-wc-form-handler.php:726
 msgid "Your order was cancelled."
-msgstr ""
+msgstr "Đơn hàng của bạn bị hủy"
 
 #: includes/class-wc-form-handler.php:731
 msgid ""
 "Your order can no longer be cancelled. Please contact us if you need "
 "assistance."
 msgstr ""
+"Đơn hàng của bạn không còn có thể bị hủy. Vui lòng liên hệ với chúng tôi nếu "
+"bạn cần hỗ trợ."
 
 #: includes/class-wc-form-handler.php:845
 msgid ""
@@ -18201,12 +18221,16 @@ msgid ""
 "Your account was created successfully and a password has been sent to your "
 "email address."
 msgstr ""
+"Tài khoản của bạn đã được tạo thành công và mật khẩu đã được gửi đến địa chỉ "
+"email của bạn."
 
 #: includes/class-wc-form-handler.php:1149
 msgid ""
 "Your account was created successfully. Your login details have been sent to "
 "your email address."
 msgstr ""
+"Tài khoản của bạn đã được tạo thành công. Chi tiết đăng nhập của bạn đã được "
+"gửi đến địa chỉ email của bạn."
 
 #: includes/class-wc-frontend-scripts.php:482
 msgid "Please select a rating"
@@ -18409,7 +18433,7 @@ msgstr ""
 #. translators: %s: taxes
 #: includes/class-wc-order.php:177
 msgid "(includes %s)"
-msgstr ""
+msgstr "(Đã thêm %s)"
 
 #: includes/class-wc-order.php:346
 msgid "Update status event failed."
@@ -18418,12 +18442,12 @@ msgstr ""
 #. translators: 1: old order status 2: new order status
 #: includes/class-wc-order.php:367
 msgid "Order status changed from %1$s to %2$s."
-msgstr ""
+msgstr "Trạng thái đơn hàng của bạn được thay đổi từ %1$s đến %2$s."
 
 #. translators: %s: new order status
 #: includes/class-wc-order.php:391
 msgid "Order status set to %s."
-msgstr ""
+msgstr "Trạng thái đơn hàng được cài đặt cho %s."
 
 #: includes/class-wc-order.php:408
 msgid "Error during status transition."
@@ -18751,7 +18775,7 @@ msgstr ""
 
 #: includes/class-wc-post-types.php:381
 msgid "Add order"
-msgstr ""
+msgstr "Thên đơn hàng"
 
 #: includes/class-wc-post-types.php:382
 msgid "Add new order"
@@ -18759,7 +18783,7 @@ msgstr "Thêm đơn hàng mới"
 
 #: includes/class-wc-post-types.php:384
 msgid "Edit order"
-msgstr ""
+msgstr "Điều chỉnh đơn hàng"
 
 #: includes/class-wc-post-types.php:385
 #: includes/emails/class-wc-email-new-order.php:31
@@ -18768,7 +18792,7 @@ msgstr "Đơn hàng mới"
 
 #: includes/class-wc-post-types.php:387
 msgid "Search orders"
-msgstr ""
+msgstr "Tìm kiếm đơn hàng"
 
 #: includes/class-wc-post-types.php:389
 msgid "No orders found in trash"
@@ -18788,7 +18812,7 @@ msgstr ""
 
 #: includes/class-wc-post-types.php:394
 msgid "Orders list"
-msgstr ""
+msgstr "Danh sách đơn hàng"
 
 #: includes/class-wc-post-types.php:396
 msgid "This is where store orders are stored."
@@ -18890,13 +18914,13 @@ msgstr ""
 #: includes/class-wc-post-types.php:491 includes/wc-order-functions.php:95
 msgctxt "Order status"
 msgid "Pending payment"
-msgstr ""
+msgstr "Tạm dừng thanh toán"
 
 #. translators: %s: number of orders
 #: includes/class-wc-post-types.php:497
 msgid "Pending payment <span class=\"count\">(%s)</span>"
 msgid_plural "Pending payment <span class=\"count\">(%s)</span>"
-msgstr[0] ""
+msgstr[0] "Tạm dừng thanh toán <span class=\"count\">(%s)</span>"
 msgstr[1] ""
 
 #: includes/class-wc-post-types.php:500 includes/wc-order-functions.php:96
@@ -18926,7 +18950,7 @@ msgstr[1] ""
 #: includes/class-wc-post-types.php:518 includes/wc-order-functions.php:98
 msgctxt "Order status"
 msgid "Completed"
-msgstr ""
+msgstr "Thành công"
 
 #. translators: %s: number of orders
 #: includes/class-wc-post-types.php:524
@@ -18950,7 +18974,7 @@ msgstr[1] ""
 #: includes/class-wc-post-types.php:536 includes/wc-order-functions.php:100
 msgctxt "Order status"
 msgid "Refunded"
-msgstr ""
+msgstr "Hoàn tiền"
 
 #. translators: %s: number of orders
 #: includes/class-wc-post-types.php:542
@@ -18962,7 +18986,7 @@ msgstr[1] ""
 #: includes/class-wc-post-types.php:545 includes/wc-order-functions.php:101
 msgctxt "Order status"
 msgid "Failed"
-msgstr ""
+msgstr "Lổi"
 
 #. translators: %s: number of orders
 #. translators: %s: count
@@ -18991,12 +19015,12 @@ msgstr ""
 #: includes/class-wc-privacy-erasers.php:49
 #: includes/class-wc-privacy-exporters.php:188
 msgid "Billing Address 1"
-msgstr ""
+msgstr "Địa chỉ thanh toán 1"
 
 #: includes/class-wc-privacy-erasers.php:50
 #: includes/class-wc-privacy-exporters.php:189
 msgid "Billing Address 2"
-msgstr ""
+msgstr "Địa chỉ thanh toán 2"
 
 #: includes/class-wc-privacy-erasers.php:51
 #: includes/class-wc-privacy-exporters.php:190
@@ -19048,12 +19072,12 @@ msgstr ""
 #: includes/class-wc-privacy-erasers.php:60
 #: includes/class-wc-privacy-exporters.php:199
 msgid "Shipping Address 1"
-msgstr ""
+msgstr "Địa chỉ giao hàng 1"
 
 #: includes/class-wc-privacy-erasers.php:61
 #: includes/class-wc-privacy-exporters.php:200
 msgid "Shipping Address 2"
-msgstr ""
+msgstr "Địa chỉ giao hàng 2"
 
 #: includes/class-wc-privacy-erasers.php:62
 #: includes/class-wc-privacy-exporters.php:201
@@ -19083,7 +19107,7 @@ msgstr ""
 #. Translators: %s Order number.
 #: includes/class-wc-privacy-erasers.php:142
 msgid "Removed personal data from order %s."
-msgstr ""
+msgstr "Đã xóa thông tin cá nhân từ đơn hàng %s."
 
 #. Translators: %s Order number.
 #: includes/class-wc-privacy-erasers.php:146
@@ -19157,7 +19181,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/analytics-report-downloads.70ac0d2cc5bff1ecc84d.js:159
 #: packages/woocommerce-admin/dist/chunks/analytics-report-orders.f2d90c48c3f4b0a88512.js:145
 msgid "Order Number"
-msgstr ""
+msgstr "Đơn hành số"
 
 #: includes/class-wc-privacy-exporters.php:251
 msgid "Order Date"
@@ -19177,7 +19201,7 @@ msgstr "Địa chỉ thanh toán"
 
 #: includes/class-wc-privacy-exporters.php:257
 msgid "Shipping Address"
-msgstr ""
+msgstr "Địa chỉ giao hàng"
 
 #: includes/class-wc-privacy-exporters.php:303
 msgid "Payer first name"
@@ -19391,7 +19415,7 @@ msgstr ""
 
 #: includes/class-wc-privacy.php:110
 msgid "Payments"
-msgstr ""
+msgstr "Thanh toán"
 
 #: includes/class-wc-privacy.php:112
 msgid ""
@@ -19450,7 +19474,7 @@ msgstr ""
 #: includes/class-wc-query.php:99
 #: includes/shortcodes/class-wc-shortcode-checkout.php:192
 msgid "Pay for order"
-msgstr ""
+msgstr "Trả tiền đặt hàng"
 
 #. translators: %s: page
 #: includes/class-wc-query.php:107
@@ -20068,6 +20092,8 @@ msgid ""
 "Cancelled order emails are sent to chosen recipient(s) when orders have been "
 "marked cancelled (if they were previously processing or on-hold)."
 msgstr ""
+"Email đơn hàng đã hủy được gửi đến (những) người nhận đã chọn khi đơn hàng "
+"đã bị đánh dấu hủy (nếu trước đó họ đang xử lý hoặc tạm dừng)."
 
 #: includes/emails/class-wc-email-cancelled-order.php:59
 msgid "[{site_title}]: Order #{order_number} has been cancelled"
@@ -20167,17 +20193,19 @@ msgstr ""
 
 #: includes/emails/class-wc-email-customer-completed-order.php:32
 msgid "Completed order"
-msgstr ""
+msgstr "Đã hoàn thành đơn hàng"
 
 #: includes/emails/class-wc-email-customer-completed-order.php:33
 msgid ""
 "Order complete emails are sent to customers when their orders are marked "
 "completed and usually indicate that their orders have been shipped."
 msgstr ""
+"Email hoàn thành đơn hàng được gửi cho khách hàng khi đơn hàng của họ được "
+"đánh dấu hoàn thành và thường cho biết đơn hàng của họ đã được chuyển đi."
 
 #: includes/emails/class-wc-email-customer-completed-order.php:82
 msgid "Your {site_title} order is now complete"
-msgstr ""
+msgstr "Đơn hàng {site_title} của bạn đã hoàn tất"
 
 #: includes/emails/class-wc-email-customer-completed-order.php:92
 msgid "Thanks for shopping with us"
@@ -20189,17 +20217,19 @@ msgstr ""
 
 #: includes/emails/class-wc-email-customer-invoice.php:32
 msgid "Customer invoice / Order details"
-msgstr ""
+msgstr "Hóa đơn khách hàng / Chi tiết đặt hàng"
 
 #: includes/emails/class-wc-email-customer-invoice.php:33
 msgid ""
 "Customer invoice emails can be sent to customers containing their order "
 "information and payment links."
 msgstr ""
+"Email hóa đơn của khách hàng có thể được gửi đến khách hàng có chứa thông "
+"tin đặt hàng và liên kết thanh toán."
 
 #: includes/emails/class-wc-email-customer-invoice.php:56
 msgid "Invoice for order #{order_number} on {site_title}"
-msgstr ""
+msgstr "Hóa đơn cho đơn hàng # {order_number} trên {site_title}"
 
 #: includes/emails/class-wc-email-customer-invoice.php:58
 msgid "Your latest {site_title} invoice"
@@ -20207,11 +20237,11 @@ msgstr ""
 
 #: includes/emails/class-wc-email-customer-invoice.php:71
 msgid "Invoice for order #{order_number}"
-msgstr ""
+msgstr "Hóa đơn cho đơn hàng # {order_number}"
 
 #: includes/emails/class-wc-email-customer-invoice.php:73
 msgid "Your invoice for order #{order_number}"
-msgstr ""
+msgstr "Hóa đơn của bạn cho đơn hàng # {order_number}"
 
 #: includes/emails/class-wc-email-customer-invoice.php:115
 #: includes/emails/class-wc-email-customer-processing-order.php:144
@@ -20255,73 +20285,81 @@ msgstr ""
 #: includes/emails/class-wc-email-customer-note.php:40
 msgid "Customer note emails are sent when you add a note to an order."
 msgstr ""
+"Email ghi chú của khách hàng được gửi khi bạn thêm ghi chú vào đơn hàng."
 
 #: includes/emails/class-wc-email-customer-note.php:62
 msgid "Note added to your {site_title} order from {order_date}"
-msgstr ""
+msgstr "Lưu ý được thêm vào đơn hàng {site_title} của bạn từ {order_date}"
 
 #: includes/emails/class-wc-email-customer-note.php:72
 msgid "A note has been added to your order"
-msgstr ""
+msgstr "Một ghi chú đã được thêm vào đơn đặt hàng của bạn"
 
 #: includes/emails/class-wc-email-customer-on-hold-order.php:32
 msgid "Order on-hold"
-msgstr ""
+msgstr "Đơn hàng tạm dừng"
 
 #: includes/emails/class-wc-email-customer-on-hold-order.php:33
 msgid ""
 "This is an order notification sent to customers containing order details "
 "after an order is placed on-hold."
 msgstr ""
+"Đây là thông báo đặt hàng được gửi cho khách hàng có chứa chi tiết đơn hàng "
+"sau khi đơn hàng được giữ."
 
 #: includes/emails/class-wc-email-customer-on-hold-order.php:57
 #: includes/emails/class-wc-email-customer-processing-order.php:59
 msgid "Your {site_title} order has been received!"
-msgstr ""
+msgstr "Đơn hàng {site_title} của bạn đã được nhận!"
 
 #: includes/emails/class-wc-email-customer-on-hold-order.php:67
 #: includes/emails/class-wc-email-customer-processing-order.php:69
 msgid "Thank you for your order"
-msgstr ""
+msgstr "Cám ơn bạn đã đặt hàng"
 
 #: includes/emails/class-wc-email-customer-on-hold-order.php:142
 msgid "We look forward to fulfilling your order soon."
-msgstr ""
+msgstr "Chúng tôi mong muốn hoàn thành đơn đặt hàng của bạn sớm."
 
 #: includes/emails/class-wc-email-customer-processing-order.php:33
 msgid "Processing order"
-msgstr ""
+msgstr "Đơn hàng đang được xữ lý"
 
 #: includes/emails/class-wc-email-customer-processing-order.php:34
 msgid ""
 "This is an order notification sent to customers containing order details "
 "after payment."
 msgstr ""
+"Đây là thông báo đặt hàng được gửi cho khách hàng có chứa chi tiết đơn hàng "
+"sau khi thanh toán."
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:46
 msgid "Refunded order"
-msgstr ""
+msgstr "Hoàn lại đơn hàng"
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:47
 msgid ""
 "Order refunded emails are sent to customers when their orders are refunded."
 msgstr ""
+"Email hoàn lại đơn hàng được gửi cho khách hàng khi đơn hàng của họ được "
+"hoàn lại."
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:72
 msgid "Your {site_title} order #{order_number} has been partially refunded"
 msgstr ""
+"Đơn hàng {site_title} của bạn # {order_number} đã được hoàn trả một phần"
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:74
 msgid "Your {site_title} order #{order_number} has been refunded"
-msgstr ""
+msgstr "Đơn hàng {site_title} của bạn # {order_number} đã được hoàn lại"
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:87
 msgid "Partial Refund: Order {order_number}"
-msgstr ""
+msgstr "Hoàn tiền một phần: Đặt hàng {order_number}"
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:89
 msgid "Order Refunded: {order_number}"
-msgstr ""
+msgstr "Đã hoàn lại đơn hàng: {order_number}"
 
 #: includes/emails/class-wc-email-customer-refunded-order.php:230
 msgid "We hope to see you again soon."
@@ -20364,21 +20402,24 @@ msgstr ""
 
 #: includes/emails/class-wc-email-failed-order.php:31
 msgid "Failed order"
-msgstr ""
+msgstr "Lệnh không thành công"
 
 #: includes/emails/class-wc-email-failed-order.php:32
 msgid ""
 "Failed order emails are sent to chosen recipient(s) when orders have been "
 "marked failed (if they were previously pending or on-hold)."
 msgstr ""
+"Các email đặt hàng không thành công được gửi đến (các) người nhận được chọn "
+"khi các đơn đặt hàng đã bị đánh dấu không thành công (nếu trước đó chúng "
+"đang chờ xử lý hoặc tạm dừng)."
 
 #: includes/emails/class-wc-email-failed-order.php:58
 msgid "[{site_title}]: Order #{order_number} has failed"
-msgstr ""
+msgstr "[{site_title}]: Đơn hàng # {order_number} đã thất bại"
 
 #: includes/emails/class-wc-email-failed-order.php:68
 msgid "Order Failed: #{order_number}"
-msgstr ""
+msgstr "Đơn hàng không thành công: # {order_number}"
 
 #: includes/emails/class-wc-email-failed-order.php:142
 msgid ""
@@ -20679,7 +20720,7 @@ msgstr ""
 
 #: includes/gateways/cod/class-wc-gateway-cod.php:70
 msgid "Enable cash on delivery"
-msgstr ""
+msgstr "Cho phép tiền mặt khi giao hàng"
 
 #: includes/gateways/cod/class-wc-gateway-cod.php:85
 msgid "Payment method description that the customer will see on your website."
@@ -20866,7 +20907,7 @@ msgstr ""
 #. translators: %s: order link.
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:300
 msgid "Payment for order %s refunded"
-msgstr ""
+msgstr "Thanh toán cho đơn hàng %s được hoàn lại"
 
 #. translators: %1$s: order ID, %2$s: reason code.
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:302
@@ -20876,7 +20917,7 @@ msgstr ""
 #. translators: %s: order link.
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:319
 msgid "Payment for order %s reversed"
-msgstr ""
+msgstr "Thanh toán cho đơn hàng %s đảo ngược"
 
 #. translators: %1$s: order ID, %2$s: reason code.
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:321
@@ -20888,7 +20929,7 @@ msgstr ""
 #. translators: %s: order link.
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:334
 msgid "Reversal cancelled for order #%s"
-msgstr ""
+msgstr "Đã hủy hoàn lại đơn hàng #%s"
 
 #. translators: %1$s: order ID, %2$s: order link.
 #: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:336
@@ -22168,7 +22209,7 @@ msgstr ""
 #: includes/log-handlers/class-wc-log-handler-email.php:156
 msgid "[%1$s] %2$s: %3$s WooCommerce log message"
 msgid_plural "[%1$s] %2$s: %3$s WooCommerce log messages"
-msgstr[0] ""
+msgstr[0] "[%1$s] %2$s: %3$s WooCommerce ghi nhận log"
 msgstr[1] ""
 
 #: includes/log-handlers/class-wc-log-handler-email.php:177
@@ -22254,7 +22295,7 @@ msgstr ""
 #: includes/shipping/flat-rate/includes/settings-flat-rate.php:57
 #: includes/shipping/legacy-flat-rate/includes/settings-flat-rate.php:88
 msgid "\"%s\" shipping class cost"
-msgstr ""
+msgstr "\"%s\" chi phí lớp vận chuyển"
 
 #: includes/shipping/flat-rate/includes/settings-flat-rate.php:68
 #: includes/shipping/legacy-flat-rate/includes/settings-flat-rate.php:97
@@ -22712,7 +22753,7 @@ msgstr ""
 
 #: includes/wc-cart-functions.php:293
 msgid "[Remove]"
-msgstr ""
+msgstr "[Gở bỏ]"
 
 #. translators: %s: country name
 #: includes/wc-cart-functions.php:320
@@ -23458,7 +23499,7 @@ msgstr ""
 
 #: includes/wc-formatting-functions.php:1198
 msgid "(can be backordered)"
-msgstr ""
+msgstr "(có thể được đặt hàng sau)"
 
 #. translators: 1: price from 2: price to
 #: includes/wc-formatting-functions.php:1238
@@ -23724,6 +23765,8 @@ msgstr ""
 msgid ""
 "An account is already registered with your email address. Please log in."
 msgstr ""
+"Một tài khoản đã được đăng ký với địa chỉ email của bạn. Vui lòng hãy đăng "
+"nhập."
 
 #: includes/wc-user-functions.php:57
 msgid "Please enter a valid account username."
@@ -24456,12 +24499,12 @@ msgstr ""
 #. translators: %s: date interval
 #: packages/action-scheduler/classes/ActionScheduler_ListTable.php:458
 msgid " (%s ago)"
-msgstr ""
+msgstr " (%s trước)"
 
 #. translators: %s: date interval
 #: packages/action-scheduler/classes/ActionScheduler_ListTable.php:461
 msgid " (%s)"
-msgstr ""
+msgstr " (%s)"
 
 #: packages/action-scheduler/classes/ActionScheduler_ListTable.php:610
 msgid "Search hook, args and claim ID"
@@ -26430,7 +26473,7 @@ msgstr ""
 #: packages/woocommerce-rest-api/src/Controllers/Version1/class-wc-rest-orders-v1-controller.php:932
 #: packages/woocommerce-rest-api/src/Controllers/Version2/class-wc-rest-orders-v2-controller.php:882
 msgid "Order status."
-msgstr ""
+msgstr "Trạng thái đơn hàng"
 
 #: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:208
 #: packages/woocommerce-admin/src/API/Reports/Products/Controller.php:171
@@ -26457,7 +26500,7 @@ msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:242
 msgid "Order customer information."
-msgstr ""
+msgstr "Thông tin khách hàng đặt hàng"
 
 #: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:327
 #: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:445
@@ -26756,7 +26799,7 @@ msgstr ""
 #. translators: %s is product name
 #: packages/woocommerce-admin/src/API/Reports/Products/DataStore.php:229
 msgid "(Deleted)"
-msgstr ""
+msgstr "(Đã xóa)"
 
 #: packages/woocommerce-admin/src/API/Reports/Products/Stats/Controller.php:198
 msgid "Human readable segment label, either product or variation name."
@@ -27218,12 +27261,12 @@ msgstr ""
 #. translators: Amount of product per year (e.g. Bookings - $240.00 per year)
 #: packages/woocommerce-admin/src/Features/Onboarding.php:441
 msgid " — %s per year"
-msgstr ""
+msgstr " — %s trên năm"
 
 #. translators: site currency symbol (used to show that the product costs money)
 #: packages/woocommerce-admin/src/Features/Onboarding.php:447
 msgid " — %s"
-msgstr ""
+msgstr " — %s"
 
 #: packages/woocommerce-admin/src/Features/Onboarding.php:755
 #: packages/woocommerce-admin/src/Features/Onboarding.php:855
@@ -27641,7 +27684,7 @@ msgstr ""
 
 #: packages/woocommerce-admin/src/ReportCSVEmail.php:83
 msgid "[{site_title}]: Your {report_name} Report download is ready"
-msgstr ""
+msgstr "[{site_title}]: Tải xuống báo cáo {report_name} của bạn đã sẵn sàng"
 
 #: packages/woocommerce-admin/src/ReportsSync.php:51
 msgid ""
@@ -27667,7 +27710,7 @@ msgstr ""
 
 #: packages/woocommerce-admin/src/Schedulers/CustomersScheduler.php:200
 msgid "[deleted]"
-msgstr ""
+msgstr "[đã xóa]"
 
 #. translators: 1: composer command. 2: plugin directory
 #: packages/woocommerce-admin/woocommerce-admin.php:38
@@ -28455,7 +28498,7 @@ msgstr ""
 #. translators: %s: product name
 #: packages/woocommerce-blocks/src/RestApi/StoreApi/Utilities/CartController.php:64
 msgid "\"%s\" is already inside your cart."
-msgstr ""
+msgstr "\"%s\" đã có sẳn trong giỏ."
 
 #. translators: %1$s: Attribute name, %2$s: Allowed values.
 #: packages/woocommerce-blocks/src/RestApi/StoreApi/Utilities/CartController.php:261
@@ -28688,7 +28731,7 @@ msgstr ""
 
 #: packages/woocommerce-rest-api/src/Controllers/Version1/class-wc-rest-customers-v1-controller.php:58
 msgid "New user email address."
-msgstr ""
+msgstr "Địa chỉ email người dùng mới."
 
 #: packages/woocommerce-rest-api/src/Controllers/Version1/class-wc-rest-customers-v1-controller.php:62
 msgid "New user username."
@@ -29036,7 +29079,7 @@ msgstr ""
 
 #: packages/woocommerce-rest-api/src/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:413
 msgid "Order note."
-msgstr ""
+msgstr "Ghi chú đơn hàng."
 
 #: packages/woocommerce-rest-api/src/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php:418
 msgid ""
@@ -30666,7 +30709,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/analytics-report-orders.f2d90c48c3f4b0a88512.js:1571
 #: packages/woocommerce-admin/dist/chunks/dashboard-charts.d100272c0e3ae443b829.js:1540
 msgid "Order Status"
-msgstr ""
+msgstr "Trạng thái đơn hàng"
 
 #: packages/woocommerce-rest-api/src/Controllers/Version2/class-wc-rest-network-orders-v2-controller.php:82
 msgid "Order total formatted for locale"
@@ -31890,7 +31933,7 @@ msgstr ""
 
 #: packages/woocommerce-rest-api/src/Controllers/Version3/class-wc-rest-reports-controller.php:39
 msgid "Orders totals."
-msgstr ""
+msgstr "Tổng cộng đơn hàng"
 
 #: packages/woocommerce-rest-api/src/Controllers/Version3/class-wc-rest-reports-controller.php:43
 msgid "Products totals."
@@ -32036,7 +32079,7 @@ msgstr ""
 #. Translators: $s shipping destination.
 #: templates/cart/cart-shipping.php:52
 msgid "Change address"
-msgstr ""
+msgstr "Thay đổi địa chỉ"
 
 #: templates/cart/cart-shipping.php:54
 msgid "Shipping options will be updated during checkout."
@@ -32048,13 +32091,16 @@ msgstr ""
 
 #: templates/cart/cart-shipping.php:64
 msgid "Enter your address to view shipping options."
-msgstr ""
+msgstr "Nhập địa chỉ của bạn để xem các tùy chọn vận chuyển."
 
 #: templates/cart/cart-shipping.php:67
 msgid ""
 "There are no shipping options available. Please ensure that your address has "
 "been entered correctly, or contact us if you need any help."
 msgstr ""
+"Không có tùy chọn vận chuyển có sẵn. Vui lòng đảm bảo rằng địa chỉ của bạn "
+"đã được nhập chính xác hoặc liên hệ với chúng tôi nếu bạn cần bất kỳ trợ "
+"giúp."
 
 #. Translators: $s shipping destination.
 #: templates/cart/cart-shipping.php:70
@@ -32073,7 +32119,7 @@ msgstr ""
 #. translators: %s location.
 #: templates/cart/cart-totals.php:72
 msgid "(estimated for %s)"
-msgstr ""
+msgstr "(ước lượng cho %s)"
 
 #: templates/cart/cart.php:56 templates/cart/mini-cart.php:47
 msgid "Remove this item"
@@ -32127,7 +32173,7 @@ msgstr ""
 
 #: templates/checkout/form-checkout.php:54
 msgid "Your order"
-msgstr ""
+msgstr "Đơn hàng của bạn"
 
 #: templates/checkout/form-coupon.php:26
 msgid "Have a coupon?"
@@ -32231,19 +32277,20 @@ msgstr ""
 msgid ""
 "Notification to let you know &mdash; order #%1$s belonging to %2$s has been "
 "cancelled:"
-msgstr ""
+msgstr "Thông báo đến bạn &mdash; đơn hàng #%1$s thuộc về %2$s đã bị hủy:"
 
 #. translators: %1$s: Order number. %2$s: Customer full name.
 #: templates/emails/admin-failed-order.php:28
 #: templates/emails/plain/admin-failed-order.php:25
 msgid "Payment for order #%1$s from %2$s has failed. The order was as follows:"
 msgstr ""
+"Thanh toán cho đơn hàng #%1$s từ %2$s không thành công. Thứ tự như sao:"
 
 #. translators: %s: Customer billing full name
 #: templates/emails/admin-new-order.php:26
 #: templates/emails/plain/admin-new-order.php:25
 msgid "You’ve received the following order from %s:"
-msgstr ""
+msgstr "Bạn đã nhận được đơn đặt hàng sau từ %s:"
 
 #. translators: %s: Customer first name
 #. translators: %s: Customer username
@@ -32270,7 +32317,7 @@ msgstr ""
 #: templates/emails/customer-completed-order.php:30
 #: templates/emails/plain/customer-completed-order.php:27
 msgid "We have finished processing your order."
-msgstr ""
+msgstr "Chúng tôi đã xử lý xong đơn đặt hàng của bạn."
 
 #. translators: %1$s Site title, %2$s Order pay link
 #. translators: %1$s: Site title, %2$s: Order pay link
@@ -32280,17 +32327,19 @@ msgid ""
 "An order has been created for you on %1$s. Your invoice is below, with a "
 "link to make payment when you’re ready: %2$s"
 msgstr ""
+"Một đơn hàng đã được tạo cho bạn trên %1$s. Hóa đơn của bạn ở bên dưới, có "
+"liên kết để thanh toán khi bạn sẵn sàng: %2$s"
 
 #: templates/emails/customer-invoice.php:46
 msgid "Pay for this order"
-msgstr ""
+msgstr "Trả tiền cho đơn hàng này"
 
 #. translators: %s Order date
 #. translators: %s: Order date
 #: templates/emails/customer-invoice.php:55
 #: templates/emails/plain/customer-invoice.php:39
 msgid "Here are the details of your order placed on %s:"
-msgstr ""
+msgstr "Dưới đây là chi tiết đơn đặt hàng của bạn được đặt trên %s:"
 
 #. translators: %1$s: Site title, %2$s: Username, %3$s: My account link
 #: templates/emails/customer-new-account.php:25
@@ -32300,6 +32349,9 @@ msgid ""
 "access your account area to view orders, change your password, and more at: "
 "%3$s"
 msgstr ""
+"Cảm ơn bạn đã tạo tài khoản trên %1$s. Tên người dùng của bạn là %2$s. Bạn "
+"có thể truy cập khu vực tài khoản của mình để xem đơn hàng, thay đổi mật "
+"khẩu và hơn thế nữa tại: %3$s"
 
 #. translators: %s: Auto generated password
 #: templates/emails/customer-new-account.php:28
@@ -32322,6 +32374,9 @@ msgid ""
 "Thanks for your order. It’s on-hold until we confirm that payment has been "
 "received. In the meantime, here’s a reminder of what you ordered:"
 msgstr ""
+"Cảm ơn đơn đặt hàng của bạn. Nó giữ lại cho đến khi chúng tôi xác nhận rằng "
+"thanh toán đã được nhận. Trong thời gian chờ đợi, đây là một lời nhắc nhở về "
+"những gì bạn đã ra lệnh:"
 
 #. translators: %s: Order number
 #: templates/emails/customer-processing-order.php:30
@@ -32330,6 +32385,8 @@ msgid ""
 "Just to let you know &mdash; we've received your order #%s, and it is now "
 "being processed:"
 msgstr ""
+"Thông báo đến bạn &mdash; chúng tôi đã nhận được đơn hàng của bạn #%s, và "
+"bây giờ đang được xữ lý:"
 
 #. translators: %s: Site title
 #: templates/emails/customer-refunded-order.php:32
@@ -32338,6 +32395,8 @@ msgid ""
 "Your order on %s has been partially refunded. There are more details below "
 "for your reference:"
 msgstr ""
+"Đơn hàng của bạn trên %s đã được hoàn trả một phần. Có nhiều chi tiết dưới "
+"đây để bạn tham khảo:"
 
 #. translators: %s: Site title
 #: templates/emails/customer-refunded-order.php:35
@@ -32346,6 +32405,8 @@ msgid ""
 "Your order on %s has been refunded. There are more details below for your "
 "reference:"
 msgstr ""
+"Đơn hàng của bạn trên %s đã được hoàn trả. Có nhiều chi tiết dưới đây để bạn "
+"tham khảo:"
 
 #. translators: %s: Store name
 #: templates/emails/customer-reset-password.php:29
@@ -32394,7 +32455,7 @@ msgstr ""
 #. translators: %s: Order ID.
 #: templates/emails/email-order-details.php:34
 msgid "[Order #%s]"
-msgstr ""
+msgstr "[Đơn hàng #%s]"
 
 #. translators: %s: Auto generated password
 #: templates/emails/plain/customer-new-account.php:31
@@ -32404,12 +32465,12 @@ msgstr ""
 #. translators: %1$s: Order ID. %2$s: Order date
 #: templates/emails/plain/email-order-details.php:23
 msgid "[Order #%1$s] (%2$s)"
-msgstr ""
+msgstr "[Đơn hàng #%1$s] (%2$s)"
 
 #. translators: %s: Order link.
 #: templates/emails/plain/email-order-details.php:51
 msgid "View order: %s"
-msgstr ""
+msgstr "Xem đơn hàng : %s"
 
 #: templates/global/form-login.php:34
 #: templates/myaccount/form-lost-password.php:28
@@ -32440,7 +32501,7 @@ msgstr ""
 
 #: templates/loop/orderby.php:24
 msgid "Shop order"
-msgstr ""
+msgstr "Cửa hàng đặt hàng"
 
 #: templates/loop/result-count.php:27
 msgid "Showing the single result"
@@ -32523,13 +32584,15 @@ msgstr ""
 
 #: templates/myaccount/form-login.php:99
 msgid "A password will be sent to your email address."
-msgstr ""
+msgstr "Một mật khẩu sẽ được gửi đến địa chỉ email của bạn."
 
 #: templates/myaccount/form-lost-password.php:25
 msgid ""
 "Lost your password? Please enter your username or email address. You will "
 "receive a link to create a new password via email."
 msgstr ""
+"Quên mật khẩu? Vui lòng nhập tên người dùng hoặc địa chỉ email của bạn. "
+"Bạn sẽ nhận được một liên kết để tạo một mật khẩu mới qua email."
 
 #: templates/myaccount/form-reset-password.php:25
 msgid "Enter a new password below."
@@ -32553,14 +32616,17 @@ msgid ""
 "account, but may take several minutes to show up in your inbox. Please wait "
 "at least 10 minutes before attempting another reset."
 msgstr ""
+"Một email đặt lại mật khẩu đã được gửi đến địa chỉ email trong hồ sơ cho tài "
+"khoản của bạn, nhưng có thể mất vài phút để hiển thị trong hộp thư đến của "
+"bạn. Vui lòng đợi ít nhất 10 phút trước khi thử thiết lập lại."
 
 #: templates/myaccount/my-address.php:46
 msgid "The following addresses will be used on the checkout page by default."
-msgstr ""
+msgstr "Các địa chỉ sau sẽ được sử dụng trên trang thanh toán theo mặc định."
 
 #: templates/myaccount/my-address.php:67
 msgid "You have not set up this type of address yet."
-msgstr ""
+msgstr "Bạn chưa thiết lập loại địa chỉ này."
 
 #: templates/myaccount/my-downloads.php:29
 msgid "Available downloads"
@@ -32604,11 +32670,11 @@ msgstr ""
 #. translators: 1: order number 2: order date 3: order status
 #: templates/myaccount/view-order.php:28 templates/order/tracking.php:30
 msgid "Order #%1$s was placed on %2$s and is currently %3$s."
-msgstr ""
+msgstr "Đơn hàng  #%1$s đã được đặt trên %2$s và hiện tại là %3$s."
 
 #: templates/myaccount/view-order.php:37 templates/order/tracking.php:41
 msgid "Order updates"
-msgstr ""
+msgstr "Cập nhật đơn hàng"
 
 #: templates/myaccount/view-order.php:43 templates/order/tracking.php:47
 msgid "l jS \\o\\f F Y, h:ia"
@@ -33087,6 +33153,7 @@ msgstr ""
 msgid ""
 "{{productLink}}%s{{/productLink}} reviewed by {{authorLink}}%s{{/authorLink}}"
 msgstr ""
+"{{productLink}}%s{{/productLink}} đã xem bởi {{authorLink}}%s{{/authorLink}}"
 
 #: packages/woocommerce-admin/dist/chunks/6.99246a03e7b8aa1b8b26.js:1103
 #: packages/woocommerce-admin/dist/chunks/activity-panels-inbox.99246a03e7b8aa1b8b26.js:1103
@@ -33173,6 +33240,8 @@ msgid ""
 "Order {{orderLink}}#%(orderNumber)s{{/orderLink}} %(customerString)s "
 "{{destinationFlag/}}"
 msgstr ""
+"Đơn hàng {{orderLink}}#%(orderNumber)s{{/orderLink}} %(customerString)s "
+"{{destinationFlag/}}"
 
 #: packages/woocommerce-admin/dist/chunks/7.2eb145fe8d6d73093386.js:678
 #: packages/woocommerce-admin/dist/chunks/activity-panels-orders.7b32de0acca079abb2bc.js:678
@@ -33450,7 +33519,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/11.fd724db984ec85c4acb4.js:137
 #: packages/woocommerce-admin/dist/chunks/analytics-report-customers.86adf07632d91914c6c6.js:137
 msgid "{{title}}Name{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
+msgstr "{{title}}Tên{{/title}} {{rule /}} {{filter /}}"
 
 #: packages/woocommerce-admin/dist/chunks/11.fd724db984ec85c4acb4.js:138
 #: packages/woocommerce-admin/dist/chunks/analytics-report-customers.86adf07632d91914c6c6.js:138
@@ -33485,7 +33554,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/11.fd724db984ec85c4acb4.js:170
 #: packages/woocommerce-admin/dist/chunks/analytics-report-customers.86adf07632d91914c6c6.js:170
 msgid "{{title}}Country / Region{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
+msgstr "{{title}}Quốc gia / Khu vực{{/title}} {{rule /}} {{filter /}}"
 
 #: packages/woocommerce-admin/dist/chunks/11.fd724db984ec85c4acb4.js:171
 #: packages/woocommerce-admin/dist/chunks/analytics-report-customers.86adf07632d91914c6c6.js:171
@@ -33635,7 +33704,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/11.fd724db984ec85c4acb4.js:291
 #: packages/woocommerce-admin/dist/chunks/analytics-report-customers.86adf07632d91914c6c6.js:291
 msgid "{{title}}No. of Orders{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
+msgstr "{{title}}Đơn hàng{{/title}} {{rule /}} {{filter /}}"
 
 #. translators: Sentence fragment, logical, "Less Than" refers to number of orders a customer has placed, less than a given amount. Screenshot for context: https://cloudup.com/cCsm3GeXJbE
 #: packages/woocommerce-admin/dist/chunks/11.fd724db984ec85c4acb4.js:297
@@ -33671,7 +33740,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/11.fd724db984ec85c4acb4.js:318
 #: packages/woocommerce-admin/dist/chunks/analytics-report-customers.86adf07632d91914c6c6.js:318
 msgid "{{title}}Total Spend{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
+msgstr "{{title}}Tổng chi tiêu{{/title}} {{rule /}} {{filter /}}"
 
 #. translators: Sentence fragment, logical, "Less Than" refers to total spending by a customer, less than a given amount. Screenshot for context: https://cloudup.com/cCsm3GeXJbE
 #: packages/woocommerce-admin/dist/chunks/11.fd724db984ec85c4acb4.js:324
@@ -33749,7 +33818,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/11.fd724db984ec85c4acb4.js:374
 #: packages/woocommerce-admin/dist/chunks/analytics-report-customers.86adf07632d91914c6c6.js:374
 msgid "{{title}}Registered{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
+msgstr "{{title}}Đã đăng ký{{/title}} {{rule /}} {{filter /}}"
 
 #: packages/woocommerce-admin/dist/chunks/11.fd724db984ec85c4acb4.js:375
 #: packages/woocommerce-admin/dist/chunks/11.fd724db984ec85c4acb4.js:405
@@ -33804,7 +33873,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/11.fd724db984ec85c4acb4.js:404
 #: packages/woocommerce-admin/dist/chunks/analytics-report-customers.86adf07632d91914c6c6.js:404
 msgid "{{title}}Last active{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
+msgstr "{{title}}Hoạt động lần cuối{{/title}} {{rule /}} {{filter /}}"
 
 #: packages/woocommerce-admin/dist/chunks/11.fd724db984ec85c4acb4.js:546
 #: packages/woocommerce-admin/dist/chunks/13.30a43bc4e07111ea05c9.js:1540
@@ -33909,7 +33978,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/dashboard-charts.d100272c0e3ae443b829.js:1577
 #: packages/woocommerce-admin/dist/chunks/dashboard-charts.d100272c0e3ae443b829.js:1945
 msgid "{{title}}Product{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
+msgstr "{{title}}Sản phẩm{{/title}} {{rule /}} {{filter /}}"
 
 #: packages/woocommerce-admin/dist/chunks/12.78fc0cd185fadcfabd60.js:1460
 #: packages/woocommerce-admin/dist/chunks/25.d100272c0e3ae443b829.js:1946
@@ -33973,7 +34042,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/analytics-report-downloads.70ac0d2cc5bff1ecc84d.js:1515
 #: packages/woocommerce-admin/dist/chunks/dashboard-charts.d100272c0e3ae443b829.js:2001
 msgid "{{title}}Order #{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
+msgstr "{{title}}Đơn hàng #{{/title}} {{rule /}} {{filter /}}"
 
 #: packages/woocommerce-admin/dist/chunks/12.78fc0cd185fadcfabd60.js:1516
 #: packages/woocommerce-admin/dist/chunks/25.d100272c0e3ae443b829.js:2002
@@ -34027,7 +34096,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/analytics-report-downloads.70ac0d2cc5bff1ecc84d.js:1575
 #: packages/woocommerce-admin/dist/chunks/dashboard-charts.d100272c0e3ae443b829.js:2061
 msgid "{{title}}IP Address{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
+msgstr "{{title}}Địa chỉ IP{{/title}} {{rule /}} {{filter /}}"
 
 #: packages/woocommerce-admin/dist/chunks/12.78fc0cd185fadcfabd60.js:1576
 #: packages/woocommerce-admin/dist/chunks/25.d100272c0e3ae443b829.js:2062
@@ -34137,7 +34206,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/analytics-report-orders.f2d90c48c3f4b0a88512.js:1576
 #: packages/woocommerce-admin/dist/chunks/dashboard-charts.d100272c0e3ae443b829.js:1545
 msgid "{{title}}Order Status{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
+msgstr "{{title}}Trạng thái đơn hàng{{/title}} {{rule /}} {{filter /}}"
 
 #: packages/woocommerce-admin/dist/chunks/13.30a43bc4e07111ea05c9.js:1577
 #: packages/woocommerce-admin/dist/chunks/25.d100272c0e3ae443b829.js:1546
@@ -34205,7 +34274,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/analytics-report-orders.f2d90c48c3f4b0a88512.js:1636
 #: packages/woocommerce-admin/dist/chunks/dashboard-charts.d100272c0e3ae443b829.js:1605
 msgid "{{title}}Coupon Code{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
+msgstr "{{title}}Mã giảm giá{{/title}} {{rule /}} {{filter /}}"
 
 #: packages/woocommerce-admin/dist/chunks/13.30a43bc4e07111ea05c9.js:1637
 #: packages/woocommerce-admin/dist/chunks/25.d100272c0e3ae443b829.js:1606
@@ -34259,7 +34328,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/analytics-report-orders.f2d90c48c3f4b0a88512.js:1663
 #: packages/woocommerce-admin/dist/chunks/dashboard-charts.d100272c0e3ae443b829.js:1632
 msgid "{{title}}Customer is{{/title}} {{filter /}}"
-msgstr ""
+msgstr "{{title}}Khách hàng {{/title}} {{filter /}}"
 
 #: packages/woocommerce-admin/dist/chunks/13.30a43bc4e07111ea05c9.js:1664
 #: packages/woocommerce-admin/dist/chunks/25.d100272c0e3ae443b829.js:1633
@@ -34301,7 +34370,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/analytics-report-orders.f2d90c48c3f4b0a88512.js:1683
 #: packages/woocommerce-admin/dist/chunks/dashboard-charts.d100272c0e3ae443b829.js:1652
 msgid "{{title}}Refunds{{/title}} {{filter /}}"
-msgstr ""
+msgstr "{{title}}Hoàn tiền{{/title}} {{filter /}}"
 
 #: packages/woocommerce-admin/dist/chunks/13.30a43bc4e07111ea05c9.js:1684
 #: packages/woocommerce-admin/dist/chunks/25.d100272c0e3ae443b829.js:1653
@@ -34358,7 +34427,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/analytics-report-orders.f2d90c48c3f4b0a88512.js:1712
 #: packages/woocommerce-admin/dist/chunks/dashboard-charts.d100272c0e3ae443b829.js:1681
 msgid "{{title}}Tax Rate{{/title}} {{rule /}} {{filter /}}"
-msgstr ""
+msgstr "{{title}}Thuế suất{{/title}} {{rule /}} {{filter /}}"
 
 #: packages/woocommerce-admin/dist/chunks/13.30a43bc4e07111ea05c9.js:1713
 #: packages/woocommerce-admin/dist/chunks/25.d100272c0e3ae443b829.js:1682
@@ -35440,7 +35509,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/40.314f6a9f9e0ee86eb8bf.js:4723
 #: packages/woocommerce-admin/dist/chunks/profile-wizard.314f6a9f9e0ee86eb8bf.js:4723
 msgid "{{strong}}%s{{/strong}} developed by WooCommerce"
-msgstr ""
+msgstr "{{strong}}%s{{/strong}} phát triển bởi WooCommerce"
 
 #: packages/woocommerce-admin/dist/chunks/40.314f6a9f9e0ee86eb8bf.js:4747
 #: packages/woocommerce-admin/dist/chunks/40.314f6a9f9e0ee86eb8bf.js:5032
@@ -35574,7 +35643,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/41.4efcfa4b8a4e3adf327f.js:711
 #: packages/woocommerce-admin/dist/chunks/store-alerts.a6374b7de173331a7254.js:711
 msgid "{{current /}} of {{total /}}"
-msgstr ""
+msgstr "{{current /}} của {{total /}}"
 
 #: packages/woocommerce-admin/dist/chunks/41.4efcfa4b8a4e3adf327f.js:720
 #: packages/woocommerce-admin/dist/chunks/store-alerts.a6374b7de173331a7254.js:720
@@ -36213,7 +36282,7 @@ msgstr ""
 #: packages/woocommerce-admin/dist/chunks/43.52fe0e41a24d55f1b9b1.js:5011
 #: packages/woocommerce-admin/dist/chunks/task-list.52fe0e41a24d55f1b9b1.js:5011
 msgid " Selling CBD products is only supported by Square."
-msgstr ""
+msgstr "Bán sản phẩm CBD chỉ được hỗ trợ bởi Square."
 
 #: packages/woocommerce-admin/dist/chunks/43.52fe0e41a24d55f1b9b1.js:5025
 #: packages/woocommerce-admin/dist/chunks/task-list.52fe0e41a24d55f1b9b1.js:5025
@@ -36740,7 +36809,7 @@ msgstr ""
 
 #: packages/woocommerce-admin/dist/components/index.js:91691
 msgid "(scroll to see more)"
-msgstr ""
+msgstr "(cuộn để xem thêm)"
 
 #: packages/woocommerce-admin/dist/components/index.js:91718
 msgid "Sort by %s in ascending order"
